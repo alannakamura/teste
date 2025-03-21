@@ -15,6 +15,7 @@ def clean_text(text):
     for p in punctuation:
         text = text.replace(p, "")
     return text
+    # print d
 
 
 def count_words(input_file):
